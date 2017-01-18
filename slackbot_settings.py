@@ -1,4 +1,4 @@
-API_TOKEN = "xoxb-128676837287-KwZLtQTmKkiX9WWR41ogS3R2"
+API_TOKEN = "API-TOKEN"
 
 DEFAULT_REPLY = "Sorry but I didn't understand you"
 
