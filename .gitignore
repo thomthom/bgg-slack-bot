@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 # Project files
 
 # This contains our API key, do not upload it!
 slackbot_settings.py
+=======
+# Project files:
+
+# This contains our API key, do not upload it!
+slackbot_settings.*
+
+>>>>>>> 8c6e766cb5dac4ad8f2b249e6abd9a98f1569058
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
