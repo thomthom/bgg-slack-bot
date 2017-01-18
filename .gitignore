@@ -1,7 +1,7 @@
 # Project files:
 
 # This contains our API key, do not upload it!
-slackbot_settings.py
+slackbot_settings.*
 
 
 # Byte-compiled / optimized / DLL files
