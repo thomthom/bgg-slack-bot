@@ -1,4 +1,4 @@
 #!/bin/bash
 virtualenv bggenv
 source bggenv/bin/activate
-pip install -r requirements
+pip install -r requirements.txt
