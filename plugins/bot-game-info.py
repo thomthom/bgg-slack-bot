@@ -7,6 +7,7 @@ import re
 bgg = BoardGameGeek()
 
 @respond_to('search (.*)')
+@listen_to('\[\[search (.*)\]\]')
 def game_search(message, searchtext):
     print('got search request')
     message.reply('Searching for information on *{}*'.format(searchtext))
@@ -37,5 +38,4 @@ def format_search_message(game):
         )
 
     return msg
-
 

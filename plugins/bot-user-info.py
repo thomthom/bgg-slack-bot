@@ -11,6 +11,7 @@ bgg = BoardGameGeek()
 #    message.reply('Im sorry, this bot does not understand you, please try the *help* command')
 
 @respond_to('game (.*)')
+@listen_to('\[\[game (.*)\]\]')
 def game(message, something):
     print('got game request')
     message.reply('Getting information on *{}*'.format(something))
