@@ -33,8 +33,9 @@ def format_search_message(game):
     if game is None:
         return
 
-    msg = "\n%s (<https://boardgamegeek.com/boardgame/%s|%s>)" % (
+    msg = "\n%s (%s) <https://boardgamegeek.com/boardgame/%s|%s>" % (
         game.name,
+	game.yearpublished,
         game.id,
         game.id
         )

@@ -9,7 +9,12 @@ bgg = BoardGameGeek()
 @respond_to('help', re.IGNORECASE)
 @listen_to('\[\[help\]\]', re.IGNORECASE)
 def help(message):
-        print('got command help')
+#        print('got command help')
+#	print(message.__dict__)
+#	b = message.body
+#	print(b)
+#	print(b['ts'])
+
 	help_message = "The following commands are available from the game bot:\n\n" +\
 		"*search* `game name`\n\t\tSearch for games called _game name_. Does not need to be exact.\n" +\
 		"*game* `game title`\n\tGet information about _game title_. Must be the exact name of the game.\n" +\
